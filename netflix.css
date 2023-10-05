@@ -1,0 +1,110 @@
+*{
+    background-color: black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuQo5mhxw51ytpgLB0I_EIXiYS980OOfTk8Q&usqp=CAU");
+}
+
+ul{
+    list-style: none;
+    background-color: beige;
+    
+}
+
+li{
+    display: inline-block;
+    margin-right: 100px;
+    font-size: x-large;
+    font-style: normal;
+    color: beige;
+    
+}
+
+.hero-content{
+    text-align: center;
+}
+
+h1{
+    color: bisque;
+    font-size: xx-large;
+}
+h1{
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+    font-size: larger;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    flex-
+    justify-content: center;
+    background-color: rgb(236, 91, 91);
+}
+
+form{
+    margin: 100px;
+    background-color: black;
+    text-align: center;
+
+
+}
+
+.input-field{
+    position: relative;
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+}
+
+label{
+    position: absolute;
+    top: 0ch;
+    left: 0cap;
+    color: brown;
+    transition: 0.2s all;
+    cursor:text;
+}
+
+input{
+    width: 100%;
+    border: 0ch;
+    outline: 0;
+    padding:0.5rem 0;
+    border-bottom: 2px solid #d3d3d3;
+    font-family: 'Poppins',sans-serif;
+    box-shadow: none;
+    color:black;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+#section{
+    margin-top: 3%;
+
+}
+
+input:invalid{
+    outline: 0ch;
+}
+
+input:focus,
+input:valid{
+    border-color: #00dd22;
+}
+
+input:focus~label,
+input:valid~label{
+    font-size: 14px;
+    top: -24px;
+    color: #00dd22;
+}
+
+.button{
+    text-align: center;
+    background-color: #d3d3d3;
+}
